@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1315D3FBC44532D320CADA3A /* libPods-Talk Time SaverTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23BA47D98A474CEF08EF36 /* libPods-Talk Time SaverTests.a */; };
+		35796C5A2691555900283DB2 /* stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35796C592691555900283DB2 /* stopwatch.swift */; };
+		35796C602691DCFA00283DB2 /* CAPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35796C5D2691DCFA00283DB2 /* CAPView.swift */; };
+		35796C612691DCFA00283DB2 /* CAPView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35796C5E2691DCFA00283DB2 /* CAPView.xib */; };
+		35796C652691E53000283DB2 /* time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35796C642691E53000283DB2 /* time.swift */; };
+		35796C672691E9D900283DB2 /* actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35796C662691E9D900283DB2 /* actions.swift */; };
+		35796C6A26920D5D00283DB2 /* file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35796C6926920D5D00283DB2 /* file.swift */; };
+		35AA5986269119BC0078A37F /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA5983269119BC0078A37F /* PresentationController.swift */; };
+		35AA5987269119BC0078A37F /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA5984269119BC0078A37F /* OverlayView.swift */; };
+		35AA5988269119BC0078A37F /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35AA5985269119BC0078A37F /* OverlayView.xib */; };
+		35AA598E26911A8C0078A37F /* ECTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA598B26911A8C0078A37F /* ECTView.swift */; };
+		35AA598F26911A8C0078A37F /* ECTView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35AA598C26911A8C0078A37F /* ECTView.xib */; };
+		35FC34B826910FAB00CCD380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC34B726910FAB00CCD380 /* AppDelegate.swift */; };
+		35FC34BA26910FAB00CCD380 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC34B926910FAB00CCD380 /* SceneDelegate.swift */; };
+		35FC34BC26910FAB00CCD380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC34BB26910FAB00CCD380 /* ViewController.swift */; };
+		35FC34BF26910FAB00CCD380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FC34BD26910FAB00CCD380 /* Main.storyboard */; };
+		35FC34C126910FAC00CCD380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FC34C026910FAC00CCD380 /* Assets.xcassets */; };
+		35FC34C426910FAC00CCD380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FC34C226910FAC00CCD380 /* LaunchScreen.storyboard */; };
+		35FC34CF26910FAC00CCD380 /* Talk_Time_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC34CE26910FAC00CCD380 /* Talk_Time_SaverTests.swift */; };
+		35FC34DA26910FAC00CCD380 /* Talk_Time_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC34D926910FAC00CCD380 /* Talk_Time_SaverUITests.swift */; };
+		35FC34F326910FF700CCD380 /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC34EC26910FF700CCD380 /* historyViewController.swift */; };
+		35FC34F426910FF700CCD380 /* ShowPastRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC34EE26910FF700CCD380 /* ShowPastRecordsViewController.swift */; };
+		35FC34F62691107E00CCD380 /* EasySwiftAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC34F52691107E00CCD380 /* EasySwiftAPI.swift */; };
+		982194551A516CE1BCFFD3C0 /* libPods-Talk Time Saver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB2C2E9E2D7EC65F0C974FB /* libPods-Talk Time Saver.a */; };
+		D55F6C2129A5BC8620EAF287 /* libPods-Talk Time Saver-Talk Time SaverUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9693B85BE9F30087DB3A0C /* libPods-Talk Time Saver-Talk Time SaverUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35FC34CB26910FAC00CCD380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35FC34AC26910FAB00CCD380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35FC34B326910FAB00CCD380;
+			remoteInfo = "Talk Time Saver";
+		};
+		35FC34D626910FAC00CCD380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35FC34AC26910FAB00CCD380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35FC34B326910FAB00CCD380;
+			remoteInfo = "Talk Time Saver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35796C592691555900283DB2 /* stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopwatch.swift; sourceTree = "<group>"; };
+		35796C5D2691DCFA00283DB2 /* CAPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPView.swift; sourceTree = "<group>"; };
+		35796C5E2691DCFA00283DB2 /* CAPView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAPView.xib; sourceTree = "<group>"; };
+		35796C642691E53000283DB2 /* time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time.swift; sourceTree = "<group>"; };
+		35796C662691E9D900283DB2 /* actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actions.swift; sourceTree = "<group>"; };
+		35796C6926920D5D00283DB2 /* file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = file.swift; sourceTree = "<group>"; };
+		35AA5983269119BC0078A37F /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		35AA5984269119BC0078A37F /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		35AA5985269119BC0078A37F /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		35AA598B26911A8C0078A37F /* ECTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECTView.swift; sourceTree = "<group>"; };
+		35AA598C26911A8C0078A37F /* ECTView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ECTView.xib; sourceTree = "<group>"; };
+		35FC34B426910FAB00CCD380 /* Talk Time Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Talk Time Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FC34B726910FAB00CCD380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35FC34B926910FAB00CCD380 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35FC34BB26910FAB00CCD380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35FC34BE26910FAB00CCD380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35FC34C026910FAC00CCD380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35FC34C326910FAC00CCD380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35FC34C526910FAC00CCD380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35FC34CA26910FAC00CCD380 /* Talk Time SaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Talk Time SaverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FC34CE26910FAC00CCD380 /* Talk_Time_SaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talk_Time_SaverTests.swift; sourceTree = "<group>"; };
+		35FC34D026910FAC00CCD380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35FC34D526910FAC00CCD380 /* Talk Time SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Talk Time SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FC34D926910FAC00CCD380 /* Talk_Time_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talk_Time_SaverUITests.swift; sourceTree = "<group>"; };
+		35FC34DB26910FAC00CCD380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35FC34EC26910FF700CCD380 /* historyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
+		35FC34EE26910FF700CCD380 /* ShowPastRecordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowPastRecordsViewController.swift; sourceTree = "<group>"; };
+		35FC34F52691107E00CCD380 /* EasySwiftAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasySwiftAPI.swift; sourceTree = "<group>"; };
+		5F23BA47D98A474CEF08EF36 /* libPods-Talk Time SaverTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Talk Time SaverTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC8D96EDAFA96C6DDAEE2DB /* Pods-Talk Time SaverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk Time SaverTests.release.xcconfig"; path = "Target Support Files/Pods-Talk Time SaverTests/Pods-Talk Time SaverTests.release.xcconfig"; sourceTree = "<group>"; };
+		BAB2C2E9E2D7EC65F0C974FB /* libPods-Talk Time Saver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Talk Time Saver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C522514780FB39943FD332AC /* Pods-Talk Time Saver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk Time Saver.debug.xcconfig"; path = "Target Support Files/Pods-Talk Time Saver/Pods-Talk Time Saver.debug.xcconfig"; sourceTree = "<group>"; };
+		C5DDB83E94CDA1889116E8F4 /* Pods-Talk Time SaverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk Time SaverTests.debug.xcconfig"; path = "Target Support Files/Pods-Talk Time SaverTests/Pods-Talk Time SaverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA9693B85BE9F30087DB3A0C /* libPods-Talk Time Saver-Talk Time SaverUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Talk Time Saver-Talk Time SaverUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9EE036D61EC87BE326099FB /* Pods-Talk Time Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk Time Saver.release.xcconfig"; path = "Target Support Files/Pods-Talk Time Saver/Pods-Talk Time Saver.release.xcconfig"; sourceTree = "<group>"; };
+		DA5B72A90C9A6B7E6F81D1C7 /* Pods-Talk Time Saver-Talk Time SaverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk Time Saver-Talk Time SaverUITests.release.xcconfig"; path = "Target Support Files/Pods-Talk Time Saver-Talk Time SaverUITests/Pods-Talk Time Saver-Talk Time SaverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC460BD02A161C63675D13AE /* Pods-Talk Time Saver-Talk Time SaverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk Time Saver-Talk Time SaverUITests.debug.xcconfig"; path = "Target Support Files/Pods-Talk Time Saver-Talk Time SaverUITests/Pods-Talk Time Saver-Talk Time SaverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35FC34B126910FAB00CCD380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982194551A516CE1BCFFD3C0 /* libPods-Talk Time Saver.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FC34C726910FAC00CCD380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1315D3FBC44532D320CADA3A /* libPods-Talk Time SaverTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FC34D226910FAC00CCD380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55F6C2129A5BC8620EAF287 /* libPods-Talk Time Saver-Talk Time SaverUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35796C56269147C500283DB2 /* helpfull classes */ = {
+			isa = PBXGroup;
+			children = (
+				35FC34F52691107E00CCD380 /* EasySwiftAPI.swift */,
+				35796C592691555900283DB2 /* stopwatch.swift */,
+				35796C642691E53000283DB2 /* time.swift */,
+				35796C662691E9D900283DB2 /* actions.swift */,
+				35796C6926920D5D00283DB2 /* file.swift */,
+			);
+			path = "helpfull classes";
+			sourceTree = "<group>";
+		};
+		35796C5B2691DCFA00283DB2 /* create_a_pin */ = {
+			isa = PBXGroup;
+			children = (
+				35796C5D2691DCFA00283DB2 /* CAPView.swift */,
+				35796C5E2691DCFA00283DB2 /* CAPView.xib */,
+			);
+			path = create_a_pin;
+			sourceTree = "<group>";
+		};
+		35AA5982269119BC0078A37F /* Menu Files */ = {
+			isa = PBXGroup;
+			children = (
+				35AA5983269119BC0078A37F /* PresentationController.swift */,
+				35AA5984269119BC0078A37F /* OverlayView.swift */,
+				35AA5985269119BC0078A37F /* OverlayView.xib */,
+			);
+			path = "Menu Files";
+			sourceTree = "<group>";
+		};
+		35AA598926911A8C0078A37F /* Custom Times */ = {
+			isa = PBXGroup;
+			children = (
+				35AA598B26911A8C0078A37F /* ECTView.swift */,
+				35AA598C26911A8C0078A37F /* ECTView.xib */,
+			);
+			path = "Custom Times";
+			sourceTree = "<group>";
+		};
+		35FC34AB26910FAB00CCD380 = {
+			isa = PBXGroup;
+			children = (
+				35FC34B626910FAB00CCD380 /* Talk Time Saver */,
+				35FC34CD26910FAC00CCD380 /* Talk Time SaverTests */,
+				35FC34D826910FAC00CCD380 /* Talk Time SaverUITests */,
+				35FC34B526910FAB00CCD380 /* Products */,
+				EED257F24DFE2821C74C9799 /* Pods */,
+				48D0AF401658EDFEBF702A25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35FC34B526910FAB00CCD380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35FC34B426910FAB00CCD380 /* Talk Time Saver.app */,
+				35FC34CA26910FAC00CCD380 /* Talk Time SaverTests.xctest */,
+				35FC34D526910FAC00CCD380 /* Talk Time SaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35FC34B626910FAB00CCD380 /* Talk Time Saver */ = {
+			isa = PBXGroup;
+			children = (
+				35796C5B2691DCFA00283DB2 /* create_a_pin */,
+				35AA598926911A8C0078A37F /* Custom Times */,
+				35AA5982269119BC0078A37F /* Menu Files */,
+				35FC34ED26910FF700CCD380 /* View Record VCs */,
+				35FC34B726910FAB00CCD380 /* AppDelegate.swift */,
+				35FC34B926910FAB00CCD380 /* SceneDelegate.swift */,
+				35796C56269147C500283DB2 /* helpfull classes */,
+				35FC34BB26910FAB00CCD380 /* ViewController.swift */,
+				35FC34BD26910FAB00CCD380 /* Main.storyboard */,
+				35FC34C026910FAC00CCD380 /* Assets.xcassets */,
+				35FC34C226910FAC00CCD380 /* LaunchScreen.storyboard */,
+				35FC34C526910FAC00CCD380 /* Info.plist */,
+			);
+			path = "Talk Time Saver";
+			sourceTree = "<group>";
+		};
+		35FC34CD26910FAC00CCD380 /* Talk Time SaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				35FC34CE26910FAC00CCD380 /* Talk_Time_SaverTests.swift */,
+				35FC34D026910FAC00CCD380 /* Info.plist */,
+			);
+			path = "Talk Time SaverTests";
+			sourceTree = "<group>";
+		};
+		35FC34D826910FAC00CCD380 /* Talk Time SaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35FC34D926910FAC00CCD380 /* Talk_Time_SaverUITests.swift */,
+				35FC34DB26910FAC00CCD380 /* Info.plist */,
+			);
+			path = "Talk Time SaverUITests";
+			sourceTree = "<group>";
+		};
+		35FC34ED26910FF700CCD380 /* View Record VCs */ = {
+			isa = PBXGroup;
+			children = (
+				35FC34EC26910FF700CCD380 /* historyViewController.swift */,
+				35FC34EE26910FF700CCD380 /* ShowPastRecordsViewController.swift */,
+			);
+			path = "View Record VCs";
+			sourceTree = "<group>";
+		};
+		48D0AF401658EDFEBF702A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAB2C2E9E2D7EC65F0C974FB /* libPods-Talk Time Saver.a */,
+				CA9693B85BE9F30087DB3A0C /* libPods-Talk Time Saver-Talk Time SaverUITests.a */,
+				5F23BA47D98A474CEF08EF36 /* libPods-Talk Time SaverTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED257F24DFE2821C74C9799 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C522514780FB39943FD332AC /* Pods-Talk Time Saver.debug.xcconfig */,
+				D9EE036D61EC87BE326099FB /* Pods-Talk Time Saver.release.xcconfig */,
+				DC460BD02A161C63675D13AE /* Pods-Talk Time Saver-Talk Time SaverUITests.debug.xcconfig */,
+				DA5B72A90C9A6B7E6F81D1C7 /* Pods-Talk Time Saver-Talk Time SaverUITests.release.xcconfig */,
+				C5DDB83E94CDA1889116E8F4 /* Pods-Talk Time SaverTests.debug.xcconfig */,
+				6BC8D96EDAFA96C6DDAEE2DB /* Pods-Talk Time SaverTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35FC34B326910FAB00CCD380 /* Talk Time Saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FC34DE26910FAC00CCD380 /* Build configuration list for PBXNativeTarget "Talk Time Saver" */;
+			buildPhases = (
+				14575ED350526D8BF081AD25 /* [CP] Check Pods Manifest.lock */,
+				35FC34B026910FAB00CCD380 /* Sources */,
+				35FC34B126910FAB00CCD380 /* Frameworks */,
+				35FC34B226910FAB00CCD380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Talk Time Saver";
+			productName = "Talk Time Saver";
+			productReference = 35FC34B426910FAB00CCD380 /* Talk Time Saver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35FC34C926910FAC00CCD380 /* Talk Time SaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FC34E126910FAC00CCD380 /* Build configuration list for PBXNativeTarget "Talk Time SaverTests" */;
+			buildPhases = (
+				D987CD9B59A7FEBD2B86CDFB /* [CP] Check Pods Manifest.lock */,
+				35FC34C626910FAC00CCD380 /* Sources */,
+				35FC34C726910FAC00CCD380 /* Frameworks */,
+				35FC34C826910FAC00CCD380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35FC34CC26910FAC00CCD380 /* PBXTargetDependency */,
+			);
+			name = "Talk Time SaverTests";
+			productName = "Talk Time SaverTests";
+			productReference = 35FC34CA26910FAC00CCD380 /* Talk Time SaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35FC34D426910FAC00CCD380 /* Talk Time SaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FC34E426910FAC00CCD380 /* Build configuration list for PBXNativeTarget "Talk Time SaverUITests" */;
+			buildPhases = (
+				E5172E61D05D8F09B3776272 /* [CP] Check Pods Manifest.lock */,
+				35FC34D126910FAC00CCD380 /* Sources */,
+				35FC34D226910FAC00CCD380 /* Frameworks */,
+				35FC34D326910FAC00CCD380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35FC34D726910FAC00CCD380 /* PBXTargetDependency */,
+			);
+			name = "Talk Time SaverUITests";
+			productName = "Talk Time SaverUITests";
+			productReference = 35FC34D526910FAC00CCD380 /* Talk Time SaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35FC34AC26910FAB00CCD380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					35FC34B326910FAB00CCD380 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					35FC34C926910FAC00CCD380 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 35FC34B326910FAB00CCD380;
+					};
+					35FC34D426910FAC00CCD380 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 35FC34B326910FAB00CCD380;
+					};
+				};
+			};
+			buildConfigurationList = 35FC34AF26910FAB00CCD380 /* Build configuration list for PBXProject "Talk Time Saver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35FC34AB26910FAB00CCD380;
+			productRefGroup = 35FC34B526910FAB00CCD380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35FC34B326910FAB00CCD380 /* Talk Time Saver */,
+				35FC34C926910FAC00CCD380 /* Talk Time SaverTests */,
+				35FC34D426910FAC00CCD380 /* Talk Time SaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35FC34B226910FAB00CCD380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AA5988269119BC0078A37F /* OverlayView.xib in Resources */,
+				35796C612691DCFA00283DB2 /* CAPView.xib in Resources */,
+				35FC34C426910FAC00CCD380 /* LaunchScreen.storyboard in Resources */,
+				35AA598F26911A8C0078A37F /* ECTView.xib in Resources */,
+				35FC34C126910FAC00CCD380 /* Assets.xcassets in Resources */,
+				35FC34BF26910FAB00CCD380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FC34C826910FAC00CCD380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FC34D326910FAC00CCD380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14575ED350526D8BF081AD25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Talk Time Saver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D987CD9B59A7FEBD2B86CDFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Talk Time SaverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5172E61D05D8F09B3776272 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Talk Time Saver-Talk Time SaverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35FC34B026910FAB00CCD380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FC34BC26910FAB00CCD380 /* ViewController.swift in Sources */,
+				35796C6A26920D5D00283DB2 /* file.swift in Sources */,
+				35FC34F62691107E00CCD380 /* EasySwiftAPI.swift in Sources */,
+				35FC34F426910FF700CCD380 /* ShowPastRecordsViewController.swift in Sources */,
+				35796C652691E53000283DB2 /* time.swift in Sources */,
+				35AA5986269119BC0078A37F /* PresentationController.swift in Sources */,
+				35796C672691E9D900283DB2 /* actions.swift in Sources */,
+				35AA598E26911A8C0078A37F /* ECTView.swift in Sources */,
+				35FC34B826910FAB00CCD380 /* AppDelegate.swift in Sources */,
+				35796C5A2691555900283DB2 /* stopwatch.swift in Sources */,
+				35FC34BA26910FAB00CCD380 /* SceneDelegate.swift in Sources */,
+				35796C602691DCFA00283DB2 /* CAPView.swift in Sources */,
+				35FC34F326910FF700CCD380 /* historyViewController.swift in Sources */,
+				35AA5987269119BC0078A37F /* OverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FC34C626910FAC00CCD380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FC34CF26910FAC00CCD380 /* Talk_Time_SaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FC34D126910FAC00CCD380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FC34DA26910FAC00CCD380 /* Talk_Time_SaverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35FC34CC26910FAC00CCD380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35FC34B326910FAB00CCD380 /* Talk Time Saver */;
+			targetProxy = 35FC34CB26910FAC00CCD380 /* PBXContainerItemProxy */;
+		};
+		35FC34D726910FAC00CCD380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35FC34B326910FAB00CCD380 /* Talk Time Saver */;
+			targetProxy = 35FC34D626910FAC00CCD380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35FC34BD26910FAB00CCD380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FC34BE26910FAB00CCD380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35FC34C226910FAC00CCD380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35FC34C326910FAC00CCD380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35FC34DC26910FAC00CCD380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35FC34DD26910FAC00CCD380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35FC34DF26910FAC00CCD380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C522514780FB39943FD332AC /* Pods-Talk Time Saver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = JGM97363D6;
+				INFOPLIST_FILE = "Talk Time Saver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.starboat.Talk-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35FC34E026910FAC00CCD380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9EE036D61EC87BE326099FB /* Pods-Talk Time Saver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = JGM97363D6;
+				INFOPLIST_FILE = "Talk Time Saver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.starboat.Talk-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35FC34E226910FAC00CCD380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DDB83E94CDA1889116E8F4 /* Pods-Talk Time SaverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGM97363D6;
+				INFOPLIST_FILE = "Talk Time SaverTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.starboatllc.Talk-Time-SaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talk Time Saver.app/Talk Time Saver";
+			};
+			name = Debug;
+		};
+		35FC34E326910FAC00CCD380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC8D96EDAFA96C6DDAEE2DB /* Pods-Talk Time SaverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGM97363D6;
+				INFOPLIST_FILE = "Talk Time SaverTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.starboatllc.Talk-Time-SaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talk Time Saver.app/Talk Time Saver";
+			};
+			name = Release;
+		};
+		35FC34E526910FAC00CCD380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC460BD02A161C63675D13AE /* Pods-Talk Time Saver-Talk Time SaverUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGM97363D6;
+				INFOPLIST_FILE = "Talk Time SaverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.starboatllc.Talk-Time-SaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Talk Time Saver";
+			};
+			name = Debug;
+		};
+		35FC34E626910FAC00CCD380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5B72A90C9A6B7E6F81D1C7 /* Pods-Talk Time Saver-Talk Time SaverUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGM97363D6;
+				INFOPLIST_FILE = "Talk Time SaverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.starboatllc.Talk-Time-SaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Talk Time Saver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35FC34AF26910FAB00CCD380 /* Build configuration list for PBXProject "Talk Time Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FC34DC26910FAC00CCD380 /* Debug */,
+				35FC34DD26910FAC00CCD380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35FC34DE26910FAC00CCD380 /* Build configuration list for PBXNativeTarget "Talk Time Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FC34DF26910FAC00CCD380 /* Debug */,
+				35FC34E026910FAC00CCD380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35FC34E126910FAC00CCD380 /* Build configuration list for PBXNativeTarget "Talk Time SaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FC34E226910FAC00CCD380 /* Debug */,
+				35FC34E326910FAC00CCD380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35FC34E426910FAC00CCD380 /* Build configuration list for PBXNativeTarget "Talk Time SaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FC34E526910FAC00CCD380 /* Debug */,
+				35FC34E626910FAC00CCD380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35FC34AC26910FAB00CCD380 /* Project object */;
+}

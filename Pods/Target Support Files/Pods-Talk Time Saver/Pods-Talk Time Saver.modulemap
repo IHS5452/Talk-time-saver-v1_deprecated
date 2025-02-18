@@ -1,0 +1,6 @@
+framework module Pods_Talk_Time_Saver {
+  umbrella header "Pods-Talk Time Saver-umbrella.h"
+
+  export *
+  module * { export * }
+}

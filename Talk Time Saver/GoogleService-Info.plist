@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>515037166170-nbq8gu2tk4351h2tguhi4eeqglj6mnjo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.515037166170-nbq8gu2tk4351h2tguhi4eeqglj6mnjo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDZULhpyLyaC8WRRgv7IsijUXY3_LVA2hk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>515037166170</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.starboat.talk-time</string>
+	<key>PROJECT_ID</key>
+	<string>talk-time-e13c5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>talk-time-e13c5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:515037166170:ios:fc542f0cc0049168b1f663</string>
+	<key>DATABASE_URL</key>
+	<string>https://talk-time-e13c5.firebaseio.com</string>
+</dict>
+</plist>
